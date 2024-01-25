@@ -114,9 +114,26 @@ const Default = StyleSheet.create({
         fontFamily: 'monospace',
         margin: 10,
         borderWidth: 1,
-        flex: 1,
         textAlignVertical: 'top',
         padding: 10,
+    },
+    largeTextInput: {
+        height: '50%',
+    },
+    dialogContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0,0,0,0.5)',
+    },
+    diaglog: {
+        // height: '80%',
+        // width: '70%',
+        borderRadius: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        alignSelf: 'center',
+        backgroundColor: '#8df',
     },
 });
 
